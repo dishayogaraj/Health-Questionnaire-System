@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Health Questionnaire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Health Questionnaire</h1>
+
+<input type="text"
+id="name"
+placeholder="Enter Name">
+
+<br><br>
+
+<input type="number"
+id="age"
+placeholder="Enter Age">
+
+<br><br>
+
+<select id="gender">
+<option>Male</option>
+<option>Female</option>
+<option>Other</option>
+</select>
+
+<br><br>
+
+<textarea
+id="symptoms"
+placeholder="Enter Symptoms">
+</textarea>
+
+<br><br>
+
+<select id="diabetes">
+<option>No Diabetes</option>
+<option>Diabetes</option>
+</select>
+
+<br><br>
+
+<button onclick="generateReport()">
+Submit
+</button>
+
+<div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
